@@ -10,33 +10,69 @@ Each stage will also have it's own branch in this repo. The main branch will be 
 
 Each stage will be on it's own separate branch, so that it is clear to see how an individual toy project works in isolation.
 
-0. __Main__ - This brach will be the latest iteration of the Toy Project. 
+---
+### __Main__  
 
-1. __Introduction Branch__ - _Next_, _TS_, _REST API_, _MongoDB_, and _Hosting with Heroku_
+This brach will be the latest iteration of the Toy Project. 
+
+---
+### __Introduction Branch__  
+
+_Next_, _TS_, _REST API_, _MongoDB_, and _Hosting with Heroku_
+
 This is going to simply be a basic library front end crafted with Next, MongoDB, hosted with Heroku, and the API will be RESTful.
 
-2. __Manual Hosting Branch__ - Next, TS, _GraphQL API_, _SQL DB_, _Hosting with Linode and NGINX reverse proxy_
+---
+### __Manual Hosting Branch__  
+
+Next, TS, _GraphQL API_, _SQL DB_, _Hosting with Linode and NGINX reverse proxy_
+
 This is going to be the basic library front end as in __Introduction branch__, but it will use GraphQL API, SQL DB, and be hosted with Linode manually. 
 
-3. __Docker and Load Balancing Branch__ - Next, TS, _Docker_, _2 GraphQL API_, _2 SQL DB_, Hosting with Linode and NGINX
+---
+### __Docker and Load Balancing Branch__  
+
+Next, TS, _Docker_, _2 GraphQL API_, _2 SQL DB_, Hosting with Linode and NGINX
+
 Same as __Manual Hosting Branch__, but we add in a second SQL database and a second GraphQL API that will be containerized with Docker and Load Balanced with NGINX.
 
-4. __Microservices Branch__ - Next, TS, Docker, 2 GraphQL API, 2 SQL DB, Hosting with Linode and NGINX, and _Microservices_
+---
+### __Microservices Branch__  
+
+Next, TS, Docker, 2 GraphQL API, 2 SQL DB, Hosting with Linode and NGINX, and _Microservices_
+
 Same as __Docker and Load Balancing Branch__, but we add in a _Microservice_ (Payment API).
 
-5. __Testing and CI/CD Branch__ - Next, TS, Docker, 2 GraphQL API, 2 SQL DB, Hosting with Linode and NGINX, Microservices, _Testing_, _CI/CD_, _Deployment_
+---
+### __Testing and CI/CD Branch__ 
+
+Next, TS, Docker, 2 GraphQL API, 2 SQL DB, Hosting with Linode and NGINX, Microservices, _Testing_, _CI/CD_, _Deployment_
+
 Same as __Testing and CI/CD Branch__, but we formally Test the Code using Unit, Integration, and Functional Testing methods. Next we introduce the Concept of Continuuos integration and Continuuous deployment to make our project more resilient. 
 
-6. __Flutter Branch__ - Next, TS, Docker, 2 GraphQL API, 2 SQL DB, Hosting with Linode and NGINX, Microservices, Testing, CI/CD, Deployment, _Flutter_
+---
+### __Flutter Branch__ 
+
+Next, TS, Docker, 2 GraphQL API, 2 SQL DB, Hosting with Linode and NGINX, Microservices, Testing, CI/CD, Deployment, _Flutter_
+
 Same as __Testing and CI/CD Branch__, but this time we add in a Flutter Mobile Front End UI. 
 
-7. __Tensor Flow Branch__ - Next, TS, Docker, 2 GraphQL API, 2 SQL DB, Hosting with Linode and NGINX, Microservices, Testing, CI/CD, Deployment, Flutter, _TensorFlow_
+---
+### __Tensor Flow Branch__
+
+Next, TS, Docker, 2 GraphQL API, 2 SQL DB, Hosting with Linode and NGINX, Microservices, Testing, CI/CD, Deployment, Flutter, _TensorFlow_
+
 Same as __Flutter Branch__, but this time we learn Tensor Flow and add in a basic ML model that can learn from the input data. 
 
-8. __Improving UI Branch__ - Next, TS, Docker, 2 GraphQL API, 2 SQL DB, Hosting with Linode and NGINX, Microservices, Testing, CI/CD, Deployment, Flutter, TensorFlow
+---
+### __Improving UI Branch__
+
+Next, TS, Docker, 2 GraphQL API, 2 SQL DB, Hosting with Linode and NGINX, Microservices, Testing, CI/CD, Deployment, Flutter, TensorFlow
+
 Same as __Improving UI Branch__, but we go back and we improve the UI in both the Next Front End and in the Flutter Front end. We use any libraries that may prove useful and develop more content on the front end to make the UI beautiful. 
 We also will learn the basics of Adobe, Mock ups, and other software tools that will be used in Front End to quickly prototype mock ups. 
 
+---
 ## Domain of the Project
 
 For this project, I will use the domain name: "example-store-front.xyz", as I already owned this domain and need a use for it. 
